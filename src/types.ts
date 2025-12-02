@@ -1,7 +1,7 @@
 export type Model = {
     id: number;
     title: string;
-    year: number;
+    vin: string;
     description?: string;
     reserved?: boolean;
 }
